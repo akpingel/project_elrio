@@ -18,6 +18,7 @@
 </head>
 
 <body>
+
 <?php include '../resources/navigation.php'; ?>
 
 <div class="container">

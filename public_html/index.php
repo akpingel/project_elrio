@@ -24,8 +24,10 @@
     </style>
 </head>
 
+
 <body>
     <?php include '../resources/navigation.php'; ?>
+
 
 
 <header>
