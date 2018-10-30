@@ -25,7 +25,7 @@
 </head>
 
 <body>
-<?php include '../resources/navigation.php'; ?>
+    <?php include '../resources/navigation.php'; ?>
 
 
 <header>
