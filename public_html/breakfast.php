@@ -18,36 +18,8 @@
 </head>
 
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-  <a class="navbar-brand" href="index.html">El Rio</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+<?php include '../resources/navigation.php'; ?>
 
-
-  <div class="collapse navbar-collapse" id="navbarColor01">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="index.html">Home </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="about.html">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="drinks.html">Drinks</a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="breakfast.html">Breakfast<span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="dinner.html">Dinner</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="dessert.html">Dessert</a>
-      </li>
-    </ul>
-  </div>
-</nav>
 <header><h1 class="btn btn-warning">Breakfast Menu</h1></header>
 
 <div class="container">
@@ -95,9 +67,7 @@
 <br>
 <br>
 <br>
-<footer>
-&copy; 2018 Copyright &centerdot; El Rio Restaurant &centerdot; 012 Center Street, Indianola, Iowa, 50125 &centerdot; 212-345-6789
-</footer>
+<?php include '../resources/footer.php'; ?>
 </div>
 </body>
 </html>
